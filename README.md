@@ -11,10 +11,15 @@ Automatizando versionamento e commits com commitizen e standard-version
 
 ```sh
 ## Instalando o Commitizen no projeto.
+npm install -g commitizen
+```
+
+```sh
+## Instalando o Commitizen no projeto.
 npm install -D commitizen
 ```
 
 ```sh
 ## Inicializando o configurador do changelog.
-commitizen init cz-convencional-changelog --save-dev --save-exact
+commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
