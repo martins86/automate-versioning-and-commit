@@ -1,6 +1,10 @@
 {
   "devDependencies": {
     "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "standard-version": "^9.3.2"
+  },
+  "scripts": {
+    "release": "standard-version"
   }
 }
