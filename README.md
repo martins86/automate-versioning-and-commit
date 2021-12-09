@@ -10,7 +10,7 @@ Automatizando versionamento e commits com commitizen e standard-version
 ## Comandos NPM Usados
 
 ```sh
-## Instalando o Commitizen no projeto.
+## Instalando o Commitizen
 npm install -g commitizen
 ```
 
@@ -22,4 +22,14 @@ npm install -D commitizen
 ```sh
 ## Inicializando o configurador do changelog.
 commitizen init cz-conventional-changelog --save-dev --save-exact
+```
+
+```sh
+## Instalando o Standard Version no projeto.
+npm install -D standard-version
+```
+
+```sh
+## Adiconando o Script de release no package.json.
+npm set-script release "standard-version"
 ```
